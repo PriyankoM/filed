@@ -38,7 +38,7 @@ method="POST"
 ##Get API
 to get all the object
 
-* link- (http://127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>)
+* link- <http://127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>>
     
 * example-http://127.0.0.1:8000/getapi/song/2
 
