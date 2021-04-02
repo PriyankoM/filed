@@ -38,23 +38,23 @@ method="POST"
 ##Get API
 to get all the object
 
-* link- 127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>
+* link- 127.0.0.1:8000/getapi/audioFileType/audioFileID
     
 * example-http://127.0.0.1:8000/getapi/song/2
 
-* http://127.0.0.1:8000/getapi/<audioFileType>  will return all the audio files of that type
+* http://127.0.0.1:8000/getapi/audioFileType  will return all the audio files of that type
     
 * example-http://127.0.0.1:8000/getapi/song
 
 
 ##Delete API
 
-http://127.0.0.1:8000/deleteapi/<audioFileType>/<audioFileID>
+http://127.0.0.1:8000/deleteapi/audioFileType/audioFileID
     
 example-  if i want to delete audiobook and it id is 1 then url is- http://127.0.0.1:8000/deleteapi/audiobook/1
 
 ##Update API
-url- http://127.0.0.1:8000/updateapi/<audioFileType>/<audioFileID>
+url- http://127.0.0.1:8000/updateapi/audioFileType/audioFileID
     
 method-"GET"
 
@@ -64,7 +64,7 @@ method-"GET"
     "duration":time duration of the song (Integer)
 }
 and url will be-
-http://127.0.0.1:8000/updateapi/song/<audioFileID>
+http://127.0.0.1:8000/updateapi/song/audioFileID
 
 #if you want to update any "podcast" then json format will be-
 {
@@ -73,7 +73,7 @@ http://127.0.0.1:8000/updateapi/song/<audioFileID>
     "host":"host of the podcast"
 }
 and url will be-
-http://127.0.0.1:8000/updateapi/podcast/<audioFileID>
+http://127.0.0.1:8000/updateapi/podcast/audioFileID
 
 #if you want to update any "audiobook" then json format will be-
 {
