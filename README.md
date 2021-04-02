@@ -39,19 +39,23 @@ method="POST"
 to get all the object
 
 link- http://127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>
+    
 example-http://127.0.0.1:8000/getapi/song/2
 
 http://127.0.0.1:8000/getapi/<audioFileType>  will return all the audio files of that type
+    
 example-http://127.0.0.1:8000/getapi/song
 
 
 ##Delete API
 
 http://127.0.0.1:8000/deleteapi/<audioFileType>/<audioFileID>
+    
 example-  if i want to delete audiobook and it id is 1 then url is- http://127.0.0.1:8000/deleteapi/audiobook/1
 
 ##Update API
 url- http://127.0.0.1:8000/updateapi/<audioFileType>/<audioFileID>
+    
 method-"GET"
 
 #if you want to update any "song" then json format will be-
