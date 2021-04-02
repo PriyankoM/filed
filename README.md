@@ -38,13 +38,13 @@ method="POST"
 ##Get API
 to get all the object
 
-link- http://127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>
+*link- http://127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>
     
-example-http://127.0.0.1:8000/getapi/song/2
+*example-http://127.0.0.1:8000/getapi/song/2
 
-http://127.0.0.1:8000/getapi/<audioFileType>  will return all the audio files of that type
+*http://127.0.0.1:8000/getapi/<audioFileType>  will return all the audio files of that type
     
-example-http://127.0.0.1:8000/getapi/song
+*example-http://127.0.0.1:8000/getapi/song
 
 
 ##Delete API
