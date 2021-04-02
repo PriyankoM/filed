@@ -1,7 +1,7 @@
 # filed
 (use post man for send the request)
 ##Create API
-link-http://127.0.0.1:8000/createapi/
+link- http://127.0.0.1:8000/createapi/
 method="POST"
 
 ###if create "song" object then raw json format-
@@ -38,7 +38,7 @@ method="POST"
 ##Get API
 to get all the object
 
-* link- <http://127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>>
+* link- 127.0.0.1:8000/getapi/<audioFileType>/<audioFileID>
     
 * example-http://127.0.0.1:8000/getapi/song/2
 
